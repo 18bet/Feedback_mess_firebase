@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "665053454600",
+    "project_id": "feedback-project-aa754",
+    "storage_bucket": "feedback-project-aa754.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665053454600:android:fb8e260b776a4e6b3bccbd",
+        "android_client_info": {
+          "package_name": "com.example.firebase1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665053454600-ts5bum7l9ttef9m48fvb1cluo9gcc9ef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ7bhGk5ddk8REYa5plBn_-LjLjWyjVSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665053454600-ts5bum7l9ttef9m48fvb1cluo9gcc9ef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
