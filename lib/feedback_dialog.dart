@@ -1,7 +1,5 @@
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-
 
 class FeedbackDialog extends StatefulWidget {
   const FeedbackDialog({Key? key}) : super(key: key);
@@ -13,14 +11,14 @@ class FeedbackDialog extends StatefulWidget {
 class _FeedbackDialogState extends State<FeedbackDialog> {
   final TextEditingController _controller = TextEditingController();
   final GlobalKey<FormState> _formKey = GlobalKey();
-  
-  var servicesList= ["Red", "Green", "Voilet", "blue", "pink", "Green"]; 
+
+  var servicesList = ["Red", "Green", "Voilet", "blue", "pink", "Green"];
 
   @override
   void dispose() {
     _controller.dispose();
     super.dispose();
-    //List<String> servicesList = ["one", "Two", "Thee"]; 
+    //List<String> servicesList = ["one", "Two", "Thee"];
   }
 
   @override
@@ -54,13 +52,10 @@ class _FeedbackDialogState extends State<FeedbackDialog> {
         TextButton(
           child: const Text('Send'),
           onPressed: () async {
-
             if (_formKey.currentState!.validate()) {
-
               String message;
 
               try {
-
                 final collection =
                     FirebaseFirestore.instance.collection('feedback');
 
